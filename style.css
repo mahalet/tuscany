@@ -1,0 +1,90 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600px;
+  padding-left: 10px;
+}
+/*header*/
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: #cccccc;
+    padding-left: 0px;
+    margin-bottom: -50px;
+    width: 100%;
+    border-bottom: 10px;
+    color: #FFFFFF;
+}
+p {
+    background-color: #FFFF00;
+}
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar>.container-fluid {
+  padding-right: 20px;
+}
+
+.navbar-default a, .navbar-default a:focus, navbar-default a:hover {
+  font-size: small;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  font-size: small;
+  background-image: none;
+  background-color: #00CED1;
+  color: #FFFFFF;
+  text-align: center;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-image: none;
+  background-color: #1E90FF;
+  color: white;
+}
+/*thumbnail*/
+
+.thumbnail {
+  border: 0px solid #404040;
+  height: 275px;
+  color: #000000;
+  text-align: center;
+  background-color:;
+  margin: 0px;
+  padding-left: 10px;
+  background-size: cover;
+}
+div.row>div {
+  margin: 0px;
+  padding: 0px;
+}
+.myCarouser {
+  height: 100%;
+  margin-top: 0px;
+}
+/*background carousel*/
+.carousel-caption{
+  font-size: 24px;}
+.carousel-caption h4{
+  font-size: 24px;
+}
+/**/
+div.carousel:before {
+    content:'';
+    height:100%;
+    display:inline-#000000;
+    vertical-align: middle;
+}
+.first-box {
+  height: 300px;
+}
+.second-box {
+  height: 400px;
+}
+/*backgroung image*/
+ #item1 {
+  background: url('image/carousel-medium-tuscany-villas-sant-anna.jpg') top center no-repeat;
+  padding-left: 50px;
+} 
